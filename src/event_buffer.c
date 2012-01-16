@@ -1,9 +1,8 @@
 /* LuaEvent - Copyright (C) 2007 Thomas Harning <harningt@gmail.com>
  * Licensed as LGPL - See doc/COPYING for details */
-
+#include <stdlib.h>
 #include "event_buffer.h"
 #include <lauxlib.h>
-#include <stdlib.h>
 
 #define EVENT_BUFFER_MT "EVENT_BUFFER_MT"
 
